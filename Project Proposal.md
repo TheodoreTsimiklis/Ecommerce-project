@@ -30,7 +30,7 @@ We will build an online market Web application, similar to something like Facebo
 13. As a buyer, I can buy a listing (1 feature)
 14. As a buyer, I can add ratings & reviews of the product (2 features)
 15. As a buyer, I can search up the product that I am looking for as well being able to user filters that make it easier to search for products(2 feature)
-16. As a buyer, I can track my past transactions (1 feature)
+16. As a buyer, I can track my past offers(1 feature)
 
 
 
