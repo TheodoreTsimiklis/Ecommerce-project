@@ -8,7 +8,7 @@
 
   <!-- Inner -->
   <div class="carousel-inner">
-    <!-- Single item -->
+
     <div class="carousel-item active">
       <img src="static/images/new_arrival.png" class="d-block w-100" alt="New Arrival" />
       <div class="carousel-caption d-none d-md-block">

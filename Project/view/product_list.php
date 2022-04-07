@@ -96,7 +96,7 @@ function compute_type_of_sale($type_of_sale_code)
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Your market</title>
+    <title>Oreo's Market</title>
     <link rel="stylesheet" href="static/style/site.css" />
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />

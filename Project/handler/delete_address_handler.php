@@ -33,4 +33,4 @@ if (isset($_GET['zip']) && isset($_GET['addr']) && isset($_GET['owner'])) {
          window.location = '{$account_page}';
          </script>");
     }
-} else echo '<strong>WTF Why you do that ?</strong>';
+} else echo '<strong>?</strong>';

@@ -27,4 +27,4 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         echo "<script>alert('Credentials are incorrect !')</script>";
         echo "<script>window.location = '{$login_page}';</script>";
     }
-} else echo '<strong>WTF Why you do that ?</strong>';
+} else echo '<strong>?</strong>';

@@ -46,7 +46,7 @@ if (array_key_exists('increment_quantity_btn', $_POST)) {
         $prd->increment_quantity();
         $_SESSION['shopping_cart'][$index] = serialize($prd);
     } else
-        throw new Exception('WTF YOU CAN ADD A PRODUCT THAT ISNT ALREADY IN YOUR SHOPPING BAG');
+        throw new Exception('Can not do that');
 }
 
 if (array_key_exists('decrement_quantity_btn', $_POST)) {
@@ -69,7 +69,7 @@ if (array_key_exists('decrement_quantity_btn', $_POST)) {
         else
             unset($_SESSION['shopping_cart'][$index]);
     } else
-        throw new Exception('WTF YOU CAN REMOVE A PRODUCT THAT ISNT ALREADY IN YOUR SHOPPING BAG');
+        throw new Exception('Can not do that');
 }
 
 ?>
@@ -247,7 +247,7 @@ if (array_key_exists('decrement_quantity_btn', $_POST)) {
                     <br>
                     <div class="card-footer">
                         <a href="#">How are delivery costs calculated ?</a>
-                        <p>Yourmarket Prime Delivery has been applied to the eligible items in your order.</p>
+                        <p>Oreos Market Prime Delivery has been applied to the eligible items in your order.</p>
                         <a href="<?= Navigation::shopping_cart_page() ?>" class="btn btn-danger btn-sm btn-block">Return to your shopping bag</a>
                     </div>
                 </div>

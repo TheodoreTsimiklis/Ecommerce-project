@@ -26,11 +26,12 @@ We will build an online market Web application, similar to something like Facebo
 9. As a seller, I can link my social media to my account and let buyers access that as an alternative for negotiating the product that is listed (1 feature)
 10. As a seller, I can add images of the product that I am listing(1 feature)
 11. As a seller, I can add a description of the product that I am listing (1 feature)
-12. As a buyer, I can add a listing to a wish list(1 feature)
+12. As a buyer, I can add a listing to a cart list(1 feature)
 13. As a buyer, I can make an offer on a listing (1 feature)
 14. As a seller, I can add ratings & reviews of the product (2 features)
 15. As a buyer, I can search up the product that I am looking for as well being able to user filters that make it easier to search for products(2 feature)
 16. As a buyer, I can track my past offers(1 feature)
+17. As a user I can change my password(1 feature)
 
 
 

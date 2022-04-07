@@ -14,7 +14,7 @@ $products = $product_controller->get_last_produces(20);
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your market</title>
+  <title>Oreo's Market</title>
   <link rel="stylesheet" href="static/style/site.css" />
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
@@ -22,28 +22,26 @@ $products = $product_controller->get_last_produces(20);
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
 
 <body>
-  <!-- Barre de navigation -->
+
   <?php include "view/components/navbar.php" ?>
-  <!-- Fin de la barre de navigation -->
 
   <!-- Header -->
   <header>
-    <!-- Carousel wrapper -->
-    <?php include "view/components/carousel.php" ?>
-    <!-- Carousel wrapper -->
-  </header>
-  <!-- Fin du header -->
 
-  <!-- Section principale -->
+    <?php include "view/components/carousel.php" ?>
+  </header>
+
+
+
   <section class="main">
-    <!-- Toutes les cartes -->
+
     <h1><em>Last Incoming</em></h1> <br>
     <div class="cards">
       <?php foreach ($products as $product)
         echo ItemFactory::render_item($product['id'], $product['thumbnail'], $product['name'], $product['price'], $product['description'], $product['type_of_sale']); ?>
-      <!-- Fin de toutes les cartes -->
+   
   </section>
-  <!-- Fin de la section principale -->
+  
 
   <!-- Footer -->
   <?php include "view/components/footer.php" ?>

@@ -43,4 +43,4 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password'])
             echo "<script>window.location = '{$register_page}';</script>";
             break;
     }
-} else echo '<strong>WTF Why you do that ?</strong>';
+} else echo '<strong>?</strong>';

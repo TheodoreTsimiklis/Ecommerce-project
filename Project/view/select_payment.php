@@ -10,7 +10,7 @@ Navigation::init_navigation();
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Your market</title>
+    <title>Oreos Market</title>
     <link rel="stylesheet" href="static/style/site.css" />
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />

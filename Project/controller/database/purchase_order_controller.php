@@ -1,7 +1,7 @@
 <?php
 
 require_once('database_controller.php');
-require_once(__DIR__ . '/../../model/purcharse_order/purchase_order.php');
+require_once('C:\xampp\htdocs\Project\model\purchase_order\purchase_order.php');
 
 class PurchaseOrderController extends DatabaseController
 {

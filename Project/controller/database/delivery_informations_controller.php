@@ -10,7 +10,7 @@ class DeliveryInformationsController extends DatabaseController
         parent::__construct();
     }
 
-    public function create_delivery_informations(DeliveryInformations $infos): int   /* 0 => success / 1 => doublon / 2 => error on query / 3 => addresses slots = 6*/
+    public function create_delivery_informations(DeliveryInformations $infos)
     {
         $sql_doublon = 'SELECT * FROM delivery_informations WHERE account_id = :aid AND postal_code = :zip AND address = :addr AND owner_name = :owner';
 
@@ -21,6 +21,7 @@ class DeliveryInformationsController extends DatabaseController
             'addr' => $infos->get_address(),
             'owner' => $infos->get_owner_name()
         ));
+        
 
         if (!empty($query_doublon->fetch()))
             return 1;

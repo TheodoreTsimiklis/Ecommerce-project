@@ -61,4 +61,4 @@ if (
             echo "<script>window.location = '{$add_product_page}';</script>";
             break;
     }
-} else echo '<strong>WTF Why you do that ?</strong>';
+} else echo '<strong>?</strong>';

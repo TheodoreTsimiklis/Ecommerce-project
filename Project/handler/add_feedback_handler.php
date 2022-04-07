@@ -42,4 +42,4 @@ if (
             echo "<script>window.location = '{$add_feedback_page}';</script>";
             break;
     }
-} else echo '<strong>WTF Why you do that ?</strong>';
+} else echo '<strong>?</strong>';

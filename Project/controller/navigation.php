@@ -9,7 +9,7 @@ class Navigation
 
     public static function init_navigation()
     {
-        self::$_root_folder = 'http://' .  $_SERVER['HTTP_HOST'] . '/yourmarket';
+        self::$_root_folder = 'http://' .  $_SERVER['HTTP_HOST'] . '/Project';
     }
 
     public static function home_page(): string

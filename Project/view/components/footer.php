@@ -48,7 +48,7 @@
         <h5>About me</h5>
         <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60" />
 
-        <p class="foot-desc mb-0">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="foot-desc mb-0">\Placeholder Text</p>
       </div>
       <!-- Grid column -->
 
@@ -112,16 +112,13 @@
 
         <ul class="fa-ul foot-desc ml-4">
           <li class="mb-2">
-            <span class="fa-li"><i class="far fa-map"></i></span>New York, Avenue Street 10
+            <span class="fa-li"><i class="far fa-map"></i></span> Montreal
           </li>
           <li class="mb-2">
-            <span class="fa-li"><i class="fas fa-phone-alt"></i></span>042 876 836 908
+            <span class="fa-li"><i class="fas fa-phone-alt"></i></span>123456789
           </li>
           <li class="mb-2">
-            <span class="fa-li"><i class="far fa-envelope"></i></span>company@example.com
-          </li>
-          <li>
-            <span class="fa-li"><i class="far fa-clock"></i></span>Monday - Friday: 10-17
+            <span class="fa-li"><i class="far fa-envelope"></i></span>oreosmarket@gmail.com
           </li>
         </ul>
       </div>
@@ -132,6 +129,6 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright: YourMarket.com</div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: OreosMarket.com</div>
   <!-- Copyright -->
 </footer>

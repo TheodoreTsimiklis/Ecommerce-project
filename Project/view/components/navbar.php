@@ -20,7 +20,7 @@ if (isset($_SESSION['shopping_cart'])) {
 
 <nav class="navbar navbar-expand-md" style="background-color: #424242;">
     <!-- Drawer Start -->
-    <a class="navbar-brand" href="<?= Navigation::home_page() ?>" style="color: orangered"><em> &nbsp; Your Market</em></a>
+    <a class="navbar-brand" href="<?= Navigation::home_page() ?>" style="color: orangered"><em> &nbsp; Oreo's Market</em></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

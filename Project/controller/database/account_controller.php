@@ -5,6 +5,11 @@ require_once(__DIR__ . '/../../model/account/account.php');
 class AccountController extends DatabaseController
 {
 
+    public function index()
+    {
+       $this->view('API/home');
+    }
+    
     public function __construct()
     {
         parent::__construct();
