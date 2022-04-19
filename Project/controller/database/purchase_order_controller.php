@@ -1,7 +1,7 @@
 <?php
 
 require_once('database_controller.php');
-require_once('C:\xampp\htdocs\Project\model\purchase_order\purchase_order.php');
+require_once('C:\xampp\htdocs\Project\model\purchase_order\purchase_order.php'); // add relative path
 
 class PurchaseOrderController extends DatabaseController
 {
