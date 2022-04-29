@@ -12,8 +12,8 @@ require_once(__DIR__ . '/../controller/database/account_controller.php');
 require_once(__DIR__ . '/../controller/database/purchase_order_controller.php');
 require_once(__DIR__ . '/../controller/database/purchased_product_controller.php');
 
-require_once('C:\xampp\htdocs\Project\model\product\product_builder.php');
-require_once('C:\xampp\htdocs\Project\model\purchase_order\purchase_order.php');
+require_once('C:\xampp\htdocs\Project\model\product\product_builder.php'); // relative path
+require_once('C:\xampp\htdocs\Project\model\purchase_order\purchase_order.php'); // relative path
 
 require_once(__DIR__ . '/../model/purchased_product/purchased_product.php');
 require_once(__DIR__ . '/../model/purchased_product/purchased_product_builder.php');
